@@ -1,0 +1,14 @@
+---
+title: "FinalProject"
+author: "Noah"
+date: "2022-10-21"
+output: pdf_document
+---
+## Introduction
+Growing up in North Carolina and Maryland, I always wondered what the differences were between the two. I hypothesized that there would be a reasonable difference in crime rates and crime types considering Baltimore is more urban than Charolotte. Through utilizing the Nation Incident-Based Reporting System, I was able to collect data sets by state about crime rates by state.
+
+## Bar Graph of Age of Offender of Crime in Maryland
+![Alt Text](./figures/bar_age_graph.png)
+
+## Bar Graph of Sex of Offender of Crime in Maryland
+![Alt Text](./figures/bar_sex_graph.png)

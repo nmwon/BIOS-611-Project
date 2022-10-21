@@ -1,0 +1,311 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make figures/bar)[K_age_graoh[K[Kph.png
+Rscript FinalProject.R
+── [1mAttaching packages[22m ─────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.2 ──
+[32m✔[39m [34mggplot2[39m 3.3.6     [32m✔[39m [34mpurrr  [39m 0.3.4
+[32m✔[39m [34mtibble [39m 3.1.8     [32m✔[39m [34mdplyr  [39m 1.0.9
+[32m✔[39m [34mtidyr  [39m 1.2.0     [32m✔[39m [34mstringr[39m 1.4.0
+[32m✔[39m [34mreadr  [39m 2.1.2     [32m✔[39m [34mforcats[39m 0.5.1
+── [1mConflicts[22m ────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
+[31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
+[?25hError: 'storage/FinalProject/Data/MD/NIBRS_Age.csv' does not exist in current working directory ('/home/rstudio').
+Execution halted
+[?25hmake: *** [Makefile:9: figures/bar_age_graph.png] Error 1
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make bar_age_graph.png
+make: *** No rule to make target 'bar_age_graph.png'.  Stop.
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make figures/bar_age_graph.png
+Rscript FinalProject.R
+── [1mAttaching packages[22m ─────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.2 ──
+[32m✔[39m [34mggplot2[39m 3.3.6     [32m✔[39m [34mpurrr  [39m 0.3.4
+[32m✔[39m [34mtibble [39m 3.1.8     [32m✔[39m [34mdplyr  [39m 1.0.9
+[32m✔[39m [34mtidyr  [39m 1.2.0     [32m✔[39m [34mstringr[39m 1.4.0
+[32m✔[39m [34mreadr  [39m 2.1.2     [32m✔[39m [34mforcats[39m 0.5.1
+── [1mConflicts[22m ────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
+[31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
+[?25h[1mRows: [22m[34m7[39m [1mColumns: [22m[34m3[39m
+[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ","
+[31mchr[39m (2): AGE_CODE, AGE_NAME
+[32mdbl[39m (1): AGE_ID
+
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[?25hError: '/Data/NC/NIBRS_Age.csv' does not exist.
+Execution halted
+[?25hmake: *** [Makefile:9: figures/bar_age_graph.png] Error 1
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make gfi[K[K[Kfigures/bar_age_graph.png
+Rscript FinalProject.R
+── [1mAttaching packages[22m ─────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.2 ──
+[32m✔[39m [34mggplot2[39m 3.3.6     [32m✔[39m [34mpurrr  [39m 0.3.4
+[32m✔[39m [34mtibble [39m 3.1.8     [32m✔[39m [34mdplyr  [39m 1.0.9
+[32m✔[39m [34mtidyr  [39m 1.2.0     [32m✔[39m [34mstringr[39m 1.4.0
+[32m✔[39m [34mreadr  [39m 2.1.2     [32m✔[39m [34mforcats[39m 0.5.1
+── [1mConflicts[22m ────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
+[31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
+[?25h[1mRows: [22m[34m7[39m [1mColumns: [22m[34m3[39m
+[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ","
+[31mchr[39m (2): AGE_CODE, AGE_NAME
+[32mdbl[39m (1): AGE_ID
+
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[?25h[1mRows: [22m[34m7[39m [1mColumns: [22m[34m3[39m
+[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ","
+[31mchr[39m (2): AGE_CODE, AGE_NAME
+[32mdbl[39m (1): AGE_ID
+
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[?25h[1mRows: [22m[34m53985[39m [1mColumns: [22m[34m11[39m
+[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ","
+[31mchr[39m  (1): SEX_CODE
+[32mdbl[39m (10): DATA_YEAR, OFFENDER_ID, INCIDENT_ID, OFFENDER_SEQ_NUM, AGE_ID, AGE...
+
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[?25h[1mRows: [22m[34m524133[39m [1mColumns: [22m[34m11[39m
+[36m──[39m [1mColumn specification[22m [36m────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ","
+[31mchr[39m  (1): SEX_CODE
+[32mdbl[39m (10): DATA_YEAR, OFFENDER_ID, INCIDENT_ID, OFFENDER_SEQ_NUM, AGE_ID, AGE...
+
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.
+[?25h[?25h[?25h[?25hSaving 7 x 7 in image
+Warning message:
+Removed 34551 rows containing non-finite values (stat_count). 
+[?25hSaving 7 x 7 in image
+[?25h[?25h]0;/home/rstudiorstudio@dcc9c70983d2:~$ clean
+bash: clean: command not found
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make clean
+rm Derived_data/*
+rm: cannot remove 'Derived_data/*': No such file or directory
+make: *** [Makefile:4: clean] Error 1
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make report.pdf
+make: *** No rule to make target 'report.pdf'.  Stop.
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ cd
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ cd
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ ls
+Data  Derived_data  Dockerfiler.txt  Figures  FinalProject.R  FinalProject.Rmd	Logs  Makefile	ReadMe.html  ReadMe.md
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ na[K[Kam[K[Kmake report.pdf
+make: *** No rule to make target 'report.pdf'.  Stop.
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ make Report.[K[K[K[K[K[K[K[K REpor[K[K[K[Keport.pdf
+make: Nothing to be done for 'Report.pdf'.
+]0;/home/rstudiorstudio@dcc9c70983d2:~$ To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+docker build report.pdf
+bash: docker: command not found
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ make report.pdf
+make: *** No rule to make target 'report.pdf'.  Stop.
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ make figures/bar_g[Kage_graph.opn[K[K[Kpng
+make: 'figures/bar_age_graph.png' is up to date.
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ c[Kmake clean
+rm Derived_data/*
+rm: cannot remove 'Derived_data/*': No such file or directory
+make: *** [Makefile:4: clean] Error 1
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ make figures.vbar[K[K[K[K[K/bar_age_graph.png
+make: 'figures/bar_age_graph.png' is up to date.
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ make report.pdf
+make: *** No rule to make target 'report.pdf'.  Stop.
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ make Report.pdf
+make: Nothing to be done for 'Report.pdf'.
+]0;/home/rstudiorstudio@a50ebdb3af47:~$ make reprot.p[K[K[K[K[K[K[K[KReport.pdf
+R -r "rmarkdown::render(\"FinalProject.Rmd\", output_format=\"pdf_document\")"
+WARNING: unknown option '-r'
+
+ARGUMENT 'rmarkdown::render("FinalProject.Rmd",' __ignored__
+
+ARGUMENT 'output_format="pdf_document")' __ignored__
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> maker [K[K repor[K[K[K[K[KRE[Keport.pdf
+Error: unexpected symbol in "make Report.pdf"
+> To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+make Report.pdf
+Rscript -r "rmarkdown::render(\"FinalProject.Rmd\", output_format=\"pdf_document\")"
+Fatal error: cannot open file '-r': No such file or directory
+make: *** [Makefile:15: Report.pdf] Error 2
+]0;/home/rstudiorstudio@fbde4be11d1d:~$ make rep[K[K[KReport.pdf
+R -r "rmarkdown::render(\"FinalProject.Rmd\", output_format=\"pdf_document\")"
+WARNING: unknown option '-r'
+
+ARGUMENT 'rmarkdown::render("FinalProject.Rmd",' __ignored__
+
+ARGUMENT 'output_format="pdf_document")' __ignored__
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> q
+function (save = "default", status = 0, runLast = TRUE) 
+.Internal(quit(save, status, runLast))
+<bytecode: 0x5641608509d0>
+<environment: namespace:base>
+> q()
+]0;/home/rstudiorstudio@fbde4be11d1d:~$ R -h
+
+Usage: R [options] [< infile] [> outfile]
+   or: R CMD command [arguments]
+
+Start R, a system for statistical computation and graphics, with the
+specified options, or invoke an R tool via the 'R CMD' interface.
+
+Options:
+  -h, --help            Print short help message and exit
+  --version             Print version info and exit
+  --encoding=ENC        Specify encoding to be used for stdin
+  --encoding ENC
+  RHOME			Print path to R home directory and exit
+  --save                Do save workspace at the end of the session
+  --no-save             Don't save it
+  --no-environ          Don't read the site and user environment files
+  --no-site-file        Don't read the site-wide Rprofile
+  --no-init-file        Don't read the user R profile
+  --restore             Do restore previously saved objects at startup
+  --no-restore-data     Don't restore previously saved objects
+  --no-restore-history  Don't restore the R history file
+  --no-restore          Don't restore anything
+  --vanilla		Combine --no-save, --no-restore, --no-site-file,
+			--no-init-file and --no-environ
+  --no-readline         Don't use readline for command-line editing
+  --max-ppsize=N        Set max size of protect stack to N
+  --min-nsize=N         Set min number of fixed size obj's ("cons cells") to N
+  --min-vsize=N         Set vector heap minimum to N bytes; '4M' = 4 MegaB
+  -q, --quiet           Don't print startup message
+  --silent              Same as --quiet
+  -s, --no-echo         Make R run as quietly as possible
+  --interactive         Force an interactive session
+  --verbose             Print more information about progress
+  -d, --debugger=NAME   Run R through debugger NAME
+  --debugger-args=ARGS  Pass ARGS as arguments to the debugger
+  -g TYPE, --gui=TYPE	Use TYPE as GUI; possible values are 'X11' (default)
+			and 'Tk'.
+  --arch=NAME		Specify a sub-architecture
+  --args                Skip the rest of the command line
+  -f FILE, --file=FILE  Take input from 'FILE'
+  -e EXPR               Execute 'EXPR' and exit
+
+FILE may contain spaces but not shell metacharacters.
+
+Commands:
+  BATCH			Run R in batch mode
+  COMPILE		Compile files for use with R
+  SHLIB			Build shared library for dynamic loading
+  INSTALL		Install add-on packages
+  REMOVE		Remove add-on packages
+  build			Build add-on packages
+  check			Check add-on packages
+  LINK			Front-end for creating executable programs
+  Rprof			Post-process R profiling files
+  Rdconv		Convert Rd format to various other formats
+  Rd2pdf		Convert Rd format to PDF
+  Rd2txt		Convert Rd format to pretty text
+  Stangle		Extract S/R code from Sweave documentation
+  Sweave		Process Sweave documentation
+  Rdiff			Diff R output ignoring headers etc
+  config		Obtain configuration information about R
+  javareconf		Update the Java configuration variables
+  rtags                 Create Emacs-style tag files from C, R, and Rd files
+
+Please use 'R CMD command --help' to obtain further information about
+the usage of 'command'.
+
+Options --arch, --no-environ, --no-init-file, --no-site-file and --vanilla
+can be placed between R and CMD, to apply to R processes run by 'command'
+
+Report bugs at <https://bugs.R-project.org>.
+]0;/home/rstudiorstudio@fbde4be11d1d:~$ R -hmake Report.pdfreport.pdffigures/bar_age_graph.pngclean[Kfigures/bar_age_graph.png[15Preport.pdfReport.pdf
+R "rmarkdown::render(\"FinalProject.Rmd\", output_format=\"pdf_document\")"
+ARGUMENT 'rmarkdown::render("FinalProject.Rmd",' __ignored__
+
+ARGUMENT 'output_format="pdf_document")' __ignored__
+
+
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> -r make clean
+Error: unexpected symbol in "-r make"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make cleanm[K
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> make clean
+Error: unexpected symbol in "make clean"
+> [K> [K> 

@@ -1,0 +1,7 @@
+[1,"Installing 'markdown' for R Markdown...\n"]
+[2,"Installing package into ‘/usr/local/lib/R/site-library’\n(as ‘lib’ is unspecified)\n"]
+[2,"trying URL 'https://packagemanager.rstudio.com/cran/__linux__/focal/latest/src/contrib/markdown_1.2.tar.gz'\n"]
+[2,"Content type 'binary/octet-stream' length 230644 bytes (225 KB)\n="]
+[2,"============================="]
+[2,"====================\ndownloaded 225 KB\n\n"]
+[2,"* installing *binary* package ‘markdown’ ...\n* DONE (markdown)\n\nThe downloaded source packages are in\n\t‘/tmp/RtmpKBZNtH/downloaded_packages’\n\n\n✔ Package 'markdown' successfully installed.\n"]
